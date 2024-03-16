@@ -1,0 +1,95 @@
+{
+    "name": "Grafo 2",
+    "descripcion": "Grafo 2 con 5 nodos",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "N1",
+        "data": {},
+        "type": "Object",
+        "linkedTo": [
+          {
+            "nodeId": 2,
+            "distance": 120
+          },
+          {
+            "nodeId": 5,
+            "distance": 87
+          },
+          {
+            "nodeId": 6,
+            "distance": 120
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "label": "N2",
+        "data": {},
+        "type": "function",
+        "linkedTo": [
+          {
+            "nodeId": 1,
+            "distance": 120
+          },
+          {
+            "nodeId": 5,
+            "distance": 30
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "label": "N3",
+        "data": {},
+        "type": "object",
+        "linkedTo": [
+          {
+            "nodeId": 2,
+            "distance": 86
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "label": "N4",
+        "data": {},
+        "type": "function",
+        "linkedTo": [
+          {
+            "nodeId": 1,
+            "distance": 120
+          },
+          {
+            "nodeId": 5,
+            "distance": 30
+          },
+          {
+            "nodeId": 5,
+            "distance": 30
+          }
+
+        ]
+      },
+      {
+        "id": 5,
+        "label": "N5",
+        "data": {},
+        "type": "function",
+        "linkedTo": [
+          {
+            "nodeId": 1,
+            "distance": 87
+          },
+          {
+            "nodeId": 5,
+            "distance": 10
+          }
+
+        ]
+      }
+    ],
+    "generalData1": 100,
+    "generalData2": "Alg",
+    "generalData3": 300 
+}

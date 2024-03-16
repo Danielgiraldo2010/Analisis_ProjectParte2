@@ -1,0 +1,92 @@
+{
+    "name": "Grafo 5",
+    "descripcion": "Grafos no conectados",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "N1",
+        "data": {},
+        "type": "Object",
+        "linkedTo": [
+          {
+            "nodeId": 2,
+            "distance": 120
+          },
+          {
+            "nodeId": 3,
+            "distance": 25
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "label": "N2",
+        "data": {},
+        "type": "function",
+        "linkedTo": [
+          {
+            "nodeId": 1,
+            "distance": 20
+          },
+          {
+            "nodeId": 3,
+            "distance": 90
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "label": "N3",
+        "data": {},
+        "type": "object",
+        "linkedTo": [
+          {
+            "nodeId": 1,
+            "distance": 80
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "label": "N4",
+        "data": {},
+        "type": "function",
+        "linkedTo": [
+          {
+            "nodeId": 5,
+            "distance": 100
+          }
+
+        ]
+      },
+      {
+        "id": 5,
+        "label": "N5",
+        "data": {},
+        "type": "function",
+        "linkedTo": [
+          {
+            "nodeId": 6,
+            "distance": 25
+          }
+
+        ]
+      },
+      {
+        "id": 6,
+        "label": "N5",
+        "data": {},
+        "type": "function",
+        "linkedTo": [
+          {
+            "nodeId": 4,
+            "distance": 30
+          }
+
+        ]
+      }
+    ],
+    "generalData1": 100,
+    "generalData2": "Alg",
+    "generalData3": 300 
+}

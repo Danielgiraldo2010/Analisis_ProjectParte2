@@ -1,0 +1,100 @@
+{
+    "name": "Grafo 4",
+    "descripcion": "Grafo 4 modo estrella",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "N1",
+        "data": {},
+        "type": "Object",
+        "linkedTo": [
+          {
+            "nodeId": 2,
+            "distance": 120
+          },
+          {
+            "nodeId": 3,
+            "distance": 10
+          },
+          {
+            "nodeId": 4,
+            "distance": 5
+          },
+          {
+            "nodeId": 5,
+            "distance": 35
+          },
+          {
+            "nodeId": 6,
+            "distance": 45
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "label": "N2",
+        "data": {},
+        "type": "function",
+        "linkedTo": [
+          {
+            "nodeId": 1,
+            "distance": 20
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "label": "N3",
+        "data": {},
+        "type": "object",
+        "linkedTo": [
+          {
+            "nodeId": 1,
+            "distance": 80
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "label": "N4",
+        "data": {},
+        "type": "function",
+        "linkedTo": [
+          {
+            "nodeId": 1,
+            "distance": 100
+          }
+
+        ]
+      },
+      {
+        "id": 5,
+        "label": "N5",
+        "data": {},
+        "type": "function",
+        "linkedTo": [
+          {
+            "nodeId": 1,
+            "distance": 25
+          }
+
+        ]
+      },
+      {
+        "id": 6,
+        "label": "N5",
+        "data": {},
+        "type": "function",
+        "linkedTo": [
+          {
+            "nodeId": 1,
+            "distance": 30
+          }
+
+        ]
+      }
+    ],
+    "generalData1": 100,
+    "generalData2": "Alg",
+    "generalData3": 300 
+}
