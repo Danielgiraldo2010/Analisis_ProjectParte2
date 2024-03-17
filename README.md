@@ -69,4 +69,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # Frontend_Analisis_Project
-Frontend del Proyecto de Análisis Y Diseño de Algoritmos 2022-1 Universidad de Caldas.
