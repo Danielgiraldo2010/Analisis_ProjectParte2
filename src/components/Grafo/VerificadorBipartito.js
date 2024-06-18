@@ -14,7 +14,8 @@ function VerificadorBipartito({ grafo, onCheckBipartite }) {
     setError(null);
 
     try {
-      await onCheckBipartite(); // Llamar a la función del componente padre
+      const result = await onCheckBipartite(); // Llamar a la función del componente padre y obtener el resultado
+      setIsBipartite(result);
     } catch (error) {
       console.error("Error al verificar si el grafo es bipartito:", error);
       setError("Error al verificar el grafo.");
@@ -22,6 +23,7 @@ function VerificadorBipartito({ grafo, onCheckBipartite }) {
       setIsLoading(false);
     }
   };
+  
 
   return (
     <div>
@@ -32,7 +34,7 @@ function VerificadorBipartito({ grafo, onCheckBipartite }) {
       {error && <div className="alert alert-danger mt-2">{error}</div>}
 
       {isBipartite !== null && (
-        <div className="alert alert-success mt-2">
+        <div className={`alert mt-2 ${isBipartite ? 'alert-success' : 'alert-danger'}`}>
           El grafo es bipartito: {isBipartite ? "Sí" : "No"}
         </div>
       )}

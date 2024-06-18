@@ -1,0 +1,115 @@
+{
+    "name": "Grafo 1",
+    "descripcion": "Grafo 1 con 4 nodos",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "A",
+        "data": {
+          "probabilidades": {
+            "A": 0.7,
+            "B": 0.2,
+            "C": 0.1
+          }
+        },
+        "type": "Object",
+        "linkedTo": [
+          {
+            "nodeId": 2,
+            "distance": 2401
+          },
+          {
+            "nodeId": 3,
+            "distance": 1029
+          },
+          {
+            "nodeId": 4,
+            "distance": 1029
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "label": "B",
+        "data": {
+          "probabilidades": {
+            "A": 0.1,
+            "B": 0.8,
+            "C": 0.1
+          }
+        },
+        "type": "Object",
+        "linkedTo": [
+          {
+            "nodeId": 1,
+            "distance": 1401
+          },
+          {
+            "nodeId": 3,
+            "distance": 2029
+          },
+          {
+            "nodeId": 4,
+            "distance": 2029
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "label": "C",
+        "data": {
+          "probabilidades": {
+            "A": 0.5,
+            "B": 0.4,
+            "C": 0.1
+          }
+        },
+        "type": "Object",
+        "linkedTo": [
+          {
+            "nodeId": 1,
+            "distance": 1401
+          },
+          {
+            "nodeId": 2,
+            "distance": 2401
+          },
+          {
+            "nodeId": 4,
+            "distance": 1401
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "label": "D",
+        "data": {
+          "probabilidades": {
+            "A": 0.1,
+            "B": 0.1,
+            "C": 0.1,
+            "D": 0.7
+          }
+        },
+        "type": "Object",
+        "linkedTo": [
+          {
+            "nodeId": 1,
+            "distance": 1401
+          },
+          {
+            "nodeId": 2,
+            "distance": 2401
+          },
+          {
+            "nodeId": 3,
+            "distance": 1401
+          }
+        ]
+      }
+    ],
+    "generalData1": 100,
+    "generalData2": "Alg",
+    "generalData3": 300
+  }
+  

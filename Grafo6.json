@@ -1,0 +1,114 @@
+{
+    "generalData2": "Alg",
+    "generalData3": 300,
+    "generalData1": 100,
+    "name": "Grafo Bipartito",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "N1",
+        "data": {},
+        "type": "Object",
+        "linkedTo": [
+          {
+            "nodeId": 4,
+            "distance": 120
+          },
+          {
+            "nodeId": 5,
+            "distance": 87
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "label": "N2",
+        "data": {},
+        "type": "function",
+        "linkedTo": [
+          {
+            "nodeId": 4,
+            "distance": 45
+          },
+          {
+            "nodeId": 5,
+            "distance": 17
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "label": "N3",
+        "data": {},
+        "type": "object",
+        "linkedTo": [
+          {
+            "nodeId": 6,
+            "distance": 86
+          },
+          {
+            "nodeId": 7,
+            "distance": 15
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "label": "N4",
+        "data": {},
+        "type": "function",
+        "linkedTo": [
+          {
+            "nodeId": 1,
+            "distance": 120
+          },
+          {
+            "nodeId": 2,
+            "distance": 45
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "label": "N5",
+        "data": {},
+        "type": "function",
+        "linkedTo": [
+          {
+            "nodeId": 1,
+            "distance": 87
+          },
+          {
+            "nodeId": 2,
+            "distance": 17
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "label": "N6",
+        "data": {},
+        "type": "function",
+        "linkedTo": [
+          {
+            "nodeId": 3,
+            "distance": 86
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "label": "N7",
+        "data": {},
+        "type": "function",
+        "linkedTo": [
+          {
+            "nodeId": 3,
+            "distance": 15
+          }
+        ]
+      }
+    ],
+    "descripcion": "Grafo bipartito con 7 nodos"
+  }
+  
